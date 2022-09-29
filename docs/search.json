@@ -11,20 +11,13 @@
     "href": "index.html",
     "title": "italian_lessons",
     "section": "",
-    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 18, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "lesson\n\n\n\n\n\n\n\n\n\n\n\nSep 14, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/Lesson 1/01_lesson.html",
+    "href": "posts/Lesson 1/01_lesson.html",
+    "title": "Lesson 1",
     "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Alphabet\n\n# import libraries\nimport gtts, string, IPython, os  \nimport ipywidgets as widgets\n\nos.makedirs(\"alphabet_audio\", exist_ok = True) # make folder for alphabet audio\nletters = list(string.ascii_lowercase) # get letters (ascii is ok because alphabets are the same)\n\ndef save_text_mp3(text: str, loc: str, lang: str = \"it\"): gtts.gTTS(text, lang = \"it\").save(loc)    \n\n\nfor l in letters: save_text_mp3(l, f\"alphabet_audio/{l}.mp3\") # save all letters\n\n\n\n\n\n\n\n\n\n\nfor l in [\"a\", \"c\", \"j\", \"k\", \"h\", \"i\"]:\n    display(l, IPython.display.Audio(f\"alphabet_audio/{l}.mp3\"))    \n\n'a'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'c'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'j'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'k'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'h'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'i'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n\n\nCommon Sounds\n\nos.makedirs(\"common_sounds\", exist_ok = True)\n\nsounds = [\"cli\", \"gh\", \"gi\", \"gli\", \"cc\", \"ch\"]\nfor s in sounds: \n    save_text_mp3(s, f\"common_sounds/{s}.mp3\")\n    display(s, IPython.display.Audio(f\"common_sounds/{s}.mp3\"))\n\n'cli'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'gh'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'gi'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'gli'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'cc'\n\n\n\n                \n                    \n                    Your browser does not support the audio element.\n                \n              \n\n\n'ch'\n\n\n\n                \n                    \n                    Your browser does not support the audio element."
   }
 ]
