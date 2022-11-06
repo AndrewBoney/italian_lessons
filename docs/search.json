@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "italian_lessons",
     "section": "",
-    "text": "lesson\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n\n\n\n\n\n\nSep 14, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "theme\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n\n\n\n\n\n\nSep 14, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Lib/site-packages/httpcore-0.9.1.dist-info/LICENSE.html",
@@ -26,6 +26,90 @@
     "title": "italian_lessons",
     "section": "",
     "text": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/datasetcard_template.html",
+    "href": "Lib/site-packages/huggingface_hub/templates/datasetcard_template.html",
+    "title": "italian_lessons",
+    "section": "",
+    "text": "Table of Contents\nDataset Description\n\nDataset Summary\nSupported Tasks and Leaderboards\nLanguages\n\nDataset Structure\n\nData Instances\nData Fields\nData Splits\n\nDataset Creation\n\nCuration Rationale\nSource Data\nAnnotations\nPersonal and Sensitive Information\n\nConsiderations for Using the Data\n\nSocial Impact of Dataset\nDiscussion of Biases\nOther Known Limitations\n\nAdditional Information\n\nDataset Curators\nLicensing Information\nCitation Information\nContributions\n\n\n\n\n\n\nHomepage: {{ homepage_url | default(““, true)}}\nRepository: {{ repo_url | default(““, true)}}\nPaper: {{ paper_url | default(““, true)}}\nLeaderboard: {{ leaderboard_url | default(““, true)}}\nPoint of Contact: {{ point_of_contact | default(““, true)}}\n\n\n\n{{ dataset_summary | default(“[More Information Needed]”, true)}}\n\n\n\n{{ supported_tasks_and_leaderboards_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ languages_section | default(“[More Information Needed]”, true)}}\n\n\n\n\n\n\n{{ data_instances_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ data_fields_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ data_splits_section | default(“[More Information Needed]”, true)}}\n\n\n\n\n\n\n{{ curation_rationale_section | default(“[More Information Needed]”, true)}}\n\n\n\n\n\n{{ data_collection_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ source_language_producers_section | default(“[More Information Needed]”, true)}}\n\n\n\n\n\n\n{{ annotation_process_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ who_are_annotators_section | default(“[More Information Needed]”, true)}}\n\n\n\n\n{{ personal_and_sensitive_information_section | default(“[More Information Needed]”, true)}}\n\n\n\n\n\n\n{{ social_impact_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ discussion_of_biases_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ known_limitations_section | default(“[More Information Needed]”, true)}}\n\n\n\n\n\n\n{{ dataset_curators_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ licensing_information_section | default(“[More Information Needed]”, true)}}\n\n\n\n{{ citation_information_section | default(“[More Information Needed]”, true)}}\n\n\n\nThanks to @github-username for adding this dataset."
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#model-description",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#model-description",
+    "title": "italian_lessons",
+    "section": "Model Description",
+    "text": "Model Description\n\n{{ model_description | default(““, true) }}\n\nDeveloped by: {{ developers | default(“[More Information Needed]”, true)}}\nShared by [optional]: {{ shared_by | default(“[More Information Needed]”, true)}}\nModel type: {{ model_type | default(“[More Information Needed]”, true)}}\nLanguage(s) (NLP): {{ language | default(“[More Information Needed]”, true)}}\nLicense: {{ license | default(“[More Information Needed]”, true)}}\nRelated Models [optional]: {{ related_models | default(“[More Information Needed]”, true)}}\n\nParent Model [optional]: {{ parent_model | default(“[More Information Needed]”, true)}}\n\nResources for more information: {{ more_resources | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#direct-use",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#direct-use",
+    "title": "italian_lessons",
+    "section": "Direct Use",
+    "text": "Direct Use\n\n{{ direct_use | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#downstream-use-optional",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#downstream-use-optional",
+    "title": "italian_lessons",
+    "section": "Downstream Use [optional]",
+    "text": "Downstream Use [optional]\n\n{{ downstream_use | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#out-of-scope-use",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#out-of-scope-use",
+    "title": "italian_lessons",
+    "section": "Out-of-Scope Use",
+    "text": "Out-of-Scope Use\n\n{{ out_of_scope_use | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#recommendations",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#recommendations",
+    "title": "italian_lessons",
+    "section": "Recommendations",
+    "text": "Recommendations\n\n{{ bias_recommendations | default(“Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recomendations.”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#training-data",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#training-data",
+    "title": "italian_lessons",
+    "section": "Training Data",
+    "text": "Training Data\n\n{{ training_data | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#training-procedure-optional",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#training-procedure-optional",
+    "title": "italian_lessons",
+    "section": "Training Procedure [optional]",
+    "text": "Training Procedure [optional]\n\n\nPreprocessing\n{{ preprocessing | default(“[More Information Needed]”, true)}}\n\n\nSpeeds, Sizes, Times\n\n{{ speeds_sizes_times | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#testing-data-factors-metrics",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#testing-data-factors-metrics",
+    "title": "italian_lessons",
+    "section": "Testing Data, Factors & Metrics",
+    "text": "Testing Data, Factors & Metrics\n\nTesting Data\n\n{{ testing_data | default(“[More Information Needed]”, true)}}\n\n\nFactors\n\n{{ testing_factors | default(“[More Information Needed]”, true)}}\n\n\nMetrics\n\n{{ testing_metrics | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#results",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#results",
+    "title": "italian_lessons",
+    "section": "Results",
+    "text": "Results\n{{ results | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#model-architecture-and-objective",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#model-architecture-and-objective",
+    "title": "italian_lessons",
+    "section": "Model Architecture and Objective",
+    "text": "Model Architecture and Objective\n{{ model_specs | default(“[More Information Needed]”, true)}}"
+  },
+  {
+    "objectID": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#compute-infrastructure",
+    "href": "Lib/site-packages/huggingface_hub/templates/modelcard_template.html#compute-infrastructure",
+    "title": "italian_lessons",
+    "section": "Compute Infrastructure",
+    "text": "Compute Infrastructure\n{{ compute_infrastructure | default(“[More Information Needed]”, true)}}\n\nHardware\n{{ hardware | default(“[More Information Needed]”, true)}}\n\n\nSoftware\n{{ software | default(“[More Information Needed]”, true)}}"
   },
   {
     "objectID": "Lib/site-packages/ipykernel-6.16.0.dist-info/licenses/COPYING.html",
@@ -236,6 +320,20 @@
     "title": "italian_lessons",
     "section": "",
     "text": "Traitlets is adapted from enthought.traits, Copyright (c) Enthought, Inc., under the terms of the Modified BSD License.\nThis project is licensed under the terms of the Modified BSD License (also known as New or Revised or 3-Clause BSD), as follows:\n\nCopyright (c) 2001-, IPython Development Team\n\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the IPython Development Team nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nThe IPython Development Team is the set of all contributors to the IPython project. This includes all of the IPython subprojects.\nThe core team that coordinates development on GitHub can be found here: https://github.com/jupyter/.\n\n\n\nIPython uses a shared copyright model. Each contributor maintains copyright over their contributions to IPython. But, it is important to note that these contributions are typically only changes to the repositories. Thus, the IPython source code, in its entirety is not the copyright of any single person or institution. Instead, it is the collective copyright of the entire IPython Development Team. If individual contributors want to maintain a record of what changes/contributions they have specific copyright on, they should indicate their copyright in the commit message of the change, when they commit the change to one of the IPython repositories.\nWith this in mind, the following banner should be used in any source code file to indicate the copyright and license terms:\n# Copyright (c) IPython Development Team.\n# Distributed under the terms of the Modified BSD License."
+  },
+  {
+    "objectID": "nbs/it_corpus_explore.html",
+    "href": "nbs/it_corpus_explore.html",
+    "title": "italian_lessons",
+    "section": "",
+    "text": "dataset[\"train\"][\"text\"]\n\n\nimport os\nfrom bs4 import BeautifulSoup\n\n\npardir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))\n\n\n# Reading the data inside the xml\n# file to a variable under the name\n# data\nwith open('C:\\projects\\it_corpus\\itwiki-20181001-corpus.xml\\itwiki-20181001-corpus.xml', 'r') as f:\n    data = f.read()\n\n\n# Passing the stored data inside\n# the beautifulsoup parser, storing\n# the returned object\nBs_data = BeautifulSoup(data, \"xml\")"
+  },
+  {
+    "objectID": "posts/Avere and Essere/Avere and Essere.html",
+    "href": "posts/Avere and Essere/Avere and Essere.html",
+    "title": "Avere and Essere",
+    "section": "",
+    "text": "Use Cases\nEssere and Avere are used in a somewhat different way in italian to their english translations. For example, when indicating age, I would say “Ho 26 anni”, i.e. (literal translation) “I have 26 years”. This is the same with e.g. “Ho fame” to say “I am hungry”, or literally “I have hunger”. In other words, It’s also worth pointing out here the Italian will drop the prefix."
   },
   {
     "objectID": "posts/Lesson 1/01_lesson.html",
